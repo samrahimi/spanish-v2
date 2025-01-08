@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class Full Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .demo-container {
+            padding: 2rem;
+            display: flex;
+            gap: 2rem;
+        }
+        .class-box {
+            border: 1px solid #ccc;
+            padding: 1.5rem;
+            width: 300px;
+            background: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-container">
+        <!-- Normal class -->
+        <div class="class-box">
+            <h3>Available Class</h3>
+            <p>This is a regular class that's still available for enrollment.</p>
+            <button onclick="alert('Clicked!')">Enroll Now</button>
+        </div>
+
+        <!-- Full class -->
+        <div class="class-box class-full">
+            <h3>Full Class</h3>
+            <p>This class is full and cannot be enrolled in.</p>
+            <button onclick="alert('This should not work!')">Try to Enroll</button>
+        </div>
+    </div>
+</body>
+</html>

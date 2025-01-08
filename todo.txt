@@ -1,0 +1,58 @@
+            <!-- Learning Apps and Safety -->
+            <div style="display:none" class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <!-- Interactive Learning Apps -->
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-6 text-center text-brand-secondary">Interactive Learning Apps</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <i class="fas fa-star text-brand-primary text-xl mt-1"></i>
+                            <div>
+                                <h4 class="font-bold mb-2">Garbanzo</h4>
+                                <p>Builds confidence through picture-sentence combinations, providing instant feedback and success.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <i class="fas fa-star text-brand-primary text-xl mt-1"></i>
+                            <div>
+                                <h4 class="font-bold mb-2">Señor Wooly</h4>
+                                <p>Enhances listening skills through story-based music videos and humor, making learning fast and enjoyable.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <i class="fas fa-star text-brand-primary text-xl mt-1"></i>
+                            <div>
+                                <h4 class="font-bold mb-2">Audio-Digital Novel</h4>
+                                <p>Rapidly develops reading skills and expands vocabulary through engaging storytelling.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Safety & Values -->
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-6 text-center text-brand-secondary">Safety & Values</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <i class="fas fa-shield-alt text-brand-primary text-xl mt-1"></i>
+                            <div>
+                                <h4 class="font-bold mb-2">Quality Education Focus</h4>
+                                <p>I provide high-quality Spanish language education focused purely on helping your child achieve fluency. My classes maintain a professional, educational environment centered on language learning.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <i class="fas fa-check-circle text-brand-primary text-xl mt-1"></i>
+                            <div>
+                                <h4 class="font-bold mb-2">Carefully Curated Content</h4>
+                                <p>I personally review all reading materials and learning resources to ensure they are age-appropriate and aligned with our educational goals. Your child's safety and learning experience are my top priorities.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <i class="fas fa-lock text-brand-primary text-xl mt-1"></i>
+                            <div>
+                                <h4 class="font-bold mb-2">Privacy & Trust</h4>
+                                <p>Our interactive learning tools are carefully selected to create an engaging, age-appropriate learning experience. We prioritize your family's privacy and only partner with trusted educational platforms.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>

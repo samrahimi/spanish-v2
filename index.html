@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta property="og:title" content="Fast & Fun Language" />
+    <meta property="og:description" content="Accelerated Spanish For Homeschoolers, learn 2 years of Spanish in just 8 weeks" />
+    <meta property="og:image" content="https://fastandfunlanguage.com/LOGO.png" />
+    <meta property="og:url" content="https://fastandfunlanguage.com" />
+    <meta property="og:type" content="website" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fast & Fun Language - Learn Spanish for Homeschoolers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="font-sans">
+    <!-- Header Navigation -->
+    <header class="fixed w-full bg-white shadow-md z-50">
+        <nav class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center">
+                <img src="https://fastandfunlanguage.com/LOGO.png" alt="Fast &amp; Fun Language Logo" class="h-12">
+            </div>
+            <div class="mx-3 hidden md:flex space-x-6">
+                <a href="#the-class" class="nav-link text-brand-secondary hover:text-brand-primary">The Class</a>
+                <a href="#the-teacher" class="nav-link text-brand-secondary hover:text-brand-primary">The Teacher</a>
+                <a href="#testimonials" class="nav-link text-brand-secondary hover:text-brand-primary">Testimonials</a>
+                <a href="#questions" class="nav-link text-brand-secondary hover:text-brand-primary">Questions?</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="/enroll" class="btn-text bg-brand-primary text-white px-4 py-2 rounded-lg hover:opacity-90">Enroll Now</a>
+                <a href="#login" class="student-icon">
+                    <i class="fas fa-user text-gray-400"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-22">
+        <div class="hero-container">
+            <img src="https://fastandfunlanguage.com/hero.png" alt="Happy students learning" class="hero-image">
+            <div class="hero-overlay">
+                <div class="container mx-auto">
+                    <div class="max-w-4xl">
+                        <div class="space-y-2 mb-6">
+                            <div class="inline-block font-semibold text-sm md:text-base">NO boring drills!</div>
+                            <div class="inline-block font-semibold text-sm md:text-base">Story-Based Curriculum</div>
+                            <div class="inline-block font-semibold text-sm md:text-base">Designed For Homeschoolers</div>
+                        </div>
+                        <h1 class="text-3xl md:text-5xl font-bold text-brand-secondary mb-8">
+                            Learn 2 Years of Spanish in<br>Just 8 Weeks...
+                        </h1>
+                        <div class="space-x-4 flex flex-col md:flex-row md:space-x-4 space-y-0 md:space-y-0">
+                            <a href="/enroll" class="btn-text bg-brand-primary font-bold text-white px-8 py-4 rounded-lg hover:opacity-90">
+                                Enroll Now
+                            </a>
+                            <a href="#the-class" class="btn-text bg-white font-bold text-brand-secondary px-8 py-4 rounded-lg hover:opacity-90">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Class Section -->
+    <section id="the-class" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-brand-secondary mb-12">
+                Our Spanish Immersion Program
+            </h2>
+            
+            <!-- Overview -->
+            <div class="max-w-5xl mx-auto mb-12">
+                <p class="text-lg mb-6">
+                    The Fast And Fun Language program is an accelerated Spanish program which enables students to learn the equivalent of 1-2 years of high school Spanish in only 8 weeks. After completing an 8 week class, students receive a World language credit certificate that counts as a years worth of daily classroom Spanish. 
+                </p>
+                <p class="text-lg mb-6">
+                    There are three levels of the program, each of which follows the same format: each week, students will attend a live zoom class, a pre-recorded zoom class, and take part in an interactive learning activity - a total of 24 classes over the 8-week period. All classes are conducted IN Spanish - not ABOUT Spanish - creating an immersive environment that accelerates learning and builds real-world speaking abilities.
+                </p>
+                <div class="text-center mb-6">
+                    <button id="program-details-button" onclick="toggleSection('program-details', 'program-details-button')" class="bg-brand-primary text-white px-4 py-2 rounded-lg hover:opacity-90 mb-6">
+                        See What You Get...
+                    </button>
+
+                </div>
+                <div id="program-details" class="expand-content">
+                    <!-- Weekly Classes -->
+                    <div class="grid md:grid-cols-3 gap-8 mb-12 mx-auto max-w-5xl">
+                <div class="p-6 rounded-lg shadow-lg">
+                    <div class="bg-brand-primary text-white rounded-full w-12 h-12 flex items-center justify-center mb-4 mx-auto">
+                        <span class="text-xl font-bold">1</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-center">Live Immersion Class</h3>
+                    <p class="text-center">A one-hour live, full immersion class where we speak only in Spanish. Students experience accelerated fluency and the excitement of expressing themselves in Spanish from day one.</p>
+                </div>
+                
+                <div class="p-6 rounded-lg shadow-lg">
+                    <div class="bg-brand-primary text-white rounded-full w-12 h-12 flex items-center justify-center mb-4 mx-auto">
+                        <span class="text-xl font-bold">2</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-center">Interactive Recording</h3>
+                    <p class="text-center">A 30-45 minute pre-recorded class that maintains interactive engagement while allowing flexible scheduling. This session reinforces and builds upon the high-frequency words and phrases from the live class.</p>
+                </div>
+                
+                <div class="p-6 rounded-lg shadow-lg">
+                    <div class="bg-brand-primary text-white rounded-full w-12 h-12 flex items-center justify-center mb-4 mx-auto">
+                        <span class="text-xl font-bold">3</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-center">Learning Activities</h3>
+                    <p class="text-center">Three 10-15 minute fun, story-based activities that broaden skills and prepare for next week's advanced language structures.</p>
+                </div>
+            </div>
+                </div> <!-- Close program-details expand-content div -->
+            </div>
+
+            <!-- The Story Key Method -->
+            <div class="bg-gray-50 rounded-lg p-8 mb-16 max-w-5xl mx-auto">
+                <h3 class="text-2xl md:text-3xl font-bold text-center text-brand-secondary mb-8">
+                    The Story Key™ Method
+                </h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="p-6 rounded-lg shadow-lg bg-white">
+                        <img src="img/story-key-1.jpg" alt="Story Key unlocking long-term memory" class="rounded-lg mx-auto mb-4 h-48 object-cover">
+                        <h3 class="text-xl font-bold mb-4 text-center" style="color: #663399;">The Power of Stories</h3>
+                        <p class="text-center">Stories are the natural bridge between conscious learning and long-term memory. Through telling, listening, and reading stories, students naturally absorb and retain language without the need for memorization or drills.</p>
+                    </div>
+                    
+                    <div class="p-6 rounded-lg shadow-lg bg-white">
+                        <img src="img/story-key-2.jpg" alt="Individual keys for each student" class="rounded-lg mx-auto mb-4 h-48 object-cover">
+                        <h3 class="text-xl font-bold mb-4 text-center" style="color: #663399;">Personalized Learning</h3>
+                        <p class="text-center">Every child's mind is unique, with its own special key to unlock their language learning potential. That's why we limit our live classes to just 8 participants, allowing Reed to discover and use the unique key that works best for your child.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- The Teacher Section -->
+    <section id="the-teacher" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-brand-secondary mb-6">
+                About The Teacher
+            </h2>
+            <img src="img/reed-goodey.png" class="w-full max-w-[500px] mb-3 mx-auto" />
+            <p class="text-lg leading-relaxed max-w-3xl mx-auto mb-6">
+                Hi, I'm Reed Goodey! I have been a world language teacher for more than 3 decades. I love using the best Accelerated Learning techniques in the world to help kids learn to speak Spanish in a fraction of the time of conventional online and classroom programs…and have enormous fun doing it.
+            </p>
+            <button id="bio-button" onclick="toggleSection('bio-content', 'bio-button')" class="bg-brand-primary text-white px-6 py-3 rounded-lg hover:opacity-90 mb-6">
+                Learn More
+            </button>
+            <div id="bio-content" class="expand-content">
+                <p class="text-lg leading-relaxed max-w-3xl mx-auto mb-6">
+                    Hello, I'm Reed Goodey. Let's get the Boring stuff out the way first…I am a credentialed teacher in multiple states, and have over 30 years experience as a teacher, including Homeschooling my own kids. I have Degrees in French and Spanish Literature  and a Masters Degree in Education. I have taught all levels of Spanish and French, including AP and International Baccalaureate. I have studied and lived abroad in many countries, and I also speak Italian. I have traveled extensively throughout, Europe, Northern Africa, China, The Middle East, Mexico, and Central and South America.
+                </p>
+                <p class="text-lg leading-relaxed max-w-3xl mx-auto mb-6">
+                    First of all, I believe learning should be fun, and that belief has been substantiated in over 30 years of experience. In those years, I've seen thousands of students learn languages more than 10 times faster when they are having fun. The next most important thing that accelerates the learning of any language is to be in the most optimal state for learning. The optimal state for accelerated learning for any language is curiosity.
+                </p>
+                <p class="text-lg leading-relaxed max-w-3xl mx-auto mb-6">
+                    This is why, in all my classes, I maintain a constant atmosphere of playfulness, humor, curiosity, and fun. I have a lot in common with John Taylor Gatto, who spent his life teaching in the public school system, but was totally against the system because of the dysfunctional way it indoctrinated kids, rather than educated them.  I have worked in private and public schools for years, teaching as much as possible in a life-giving way, yet I have recently left that system, as the system is much too broken to continue.
+                </p>
+                <p class="text-lg leading-relaxed max-w-3xl mx-auto mb-6">
+                    I have been working with homeschoolers for years, and I homeschooled my own children some of the time in order to provide as much love of learning and curiosity as possible to them. I have a very Charlotte Mason approach and embrace her philosophy of learning in a big way. I teach in Spanish, not about Spanish in my classes, and culture, and all types of subjects are discussed in my classes, and students are about to use the language to express themselves, versus merely learning to do well on a quiz or test.
+                </p>
+                <p class="text-lg leading-relaxed max-w-3xl mx-auto mb-6">
+                    I believe learning should be engaging and fun, so I use lots of movement, props, jokes, co-created stories and more. I also know that teaching the most frequently used words and phrases gets one understanding and speaking quickly, so that one can express opinions, ask questions, and be able to use the language when traveling.
+                </p>
+                <p class="text-lg leading-relaxed max-w-3xl mx-auto mb-6">
+                    I also know that it's important to feel at ease when learning, so that's why I create an atmosphere where the students all know each other and interests, and feel safe when taking risks in expressing themselves in another language. Each class is a small community and most continue on into the higher levels as a group.
+                </p>
+                <p class="text-lg leading-relaxed max-w-3xl mx-auto mb-6">
+                    I get to know all my students and caring and connection are weaved into every part of my classes. I look forward to getting to know you, and your child and exploring this life-giving adventure of learning a language together that opens so many doors and possibilities in one's life! I hope to see you in the next class!
+                </p>
+                <p class="text-lg leading-relaxed max-w-3xl mx-auto">
+                    Much Love,<br>
+                    
+                    Reed
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-brand-secondary mb-8">
+                    Testimonials
+                </h2>
+                <div class="grid md:grid-cols-2 gap-8 items-center mb-8">
+                    <div class="text-center">
+                        <img src="docs/images/image15.jpg" alt="Student testimonial" class="w-48 h-48 object-cover rounded-lg mx-auto mb-4">
+                    </div>
+                    <div class="text-left">
+                        <blockquote class="text-xl italic mb-4">
+                            "Previously, I learned like 3 words, and I feel like now I've advanced at astronomical levels because I can hold a conversation which I didn't expect at all. I assumed I wouldn't be good at language and at my job this summer I was able to talk through a transaction in Spanish with a customer who only spoke Spanish! I genuinely enjoy learning spanish and I think it's fun."
+                        </blockquote>
+                        <p class="font-bold">- Keigan B.</p>
+                    </div>
+                </div>
+                
+                <p class="text-sm text-gray-600 mb-8">
+                    * All testimonials are from real students. Parents have given permission for the use of photos and testimonials. Names have been changed to protect student privacy.
+                </p>
+
+                <button onclick="showTestimonialsModal()" class="bg-brand-primary text-white px-6 py-3 rounded-lg hover:opacity-90">
+                    View More Testimonials
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Modal -->
+    <div id="testimonials-modal" class="testimonials-modal">
+        <button onclick="closeTestimonialsModal()" class="close-button">
+            Close
+        </button>
+        <iframe src="docs/testimonials.html" title="Student Testimonials"></iframe>
+    </div>
+
+    <!-- Questions Section -->
+    <section id="questions" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-2xl mx-auto">
+                <iframe class="airtable-embed" src="https://airtable.com/embed/appPSKtBSGmmHtOrE/pagu3PvrHJzQjABcN/form" frameborder="0" onmousewheel="" width="100%" height="820" style="background: transparent; border: 1px solid #ccc;"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-bold mb-4">About Us</h3>
+                    <p class="text-sm">Fast &amp; Fun Language provides innovative language learning solutions for homeschool families.</p>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#the-class" class="hover:text-brand-primary">The Class</a></li>
+                        <li><a href="#the-teacher" class="hover:text-brand-primary">The Teacher</a></li>
+                        <li><a href="#testimonials" class="hover:text-brand-primary">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Contact</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><i class="fas fa-envelope mr-2"></i>reed@fastandfunlanguage.com</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-brand-secondary hover:text-brand-primary">
+                            <i class="fab fa-facebook text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-brand-secondary hover:text-brand-primary">
+                            <i class="fab fa-twitter text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-brand-secondary hover:text-brand-primary">
+                            <i class="fab fa-instagram text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-200 text-center text-sm">
+                <p>© 2024 Fast &amp; Fun Language. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="fixed inset-0 bg-brand-secondary bg-opacity-95 z-50 md:hidden hidden">
+        <div class="container mx-auto px-4 py-8">
+            <div class="flex justify-end mb-8">
+                <button onclick="toggleMobileMenu()" class="text-white text-2xl">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <nav class="flex flex-col space-y-6">
+                <a href="#the-class" class="text-white text-xl" onclick="toggleMobileMenu()">The Class</a>
+                <a href="#the-teacher" class="text-white text-xl" onclick="toggleMobileMenu()">The Teacher</a>
+                <a href="#testimonials" class="text-white text-xl" onclick="toggleMobileMenu()">Testimonials</a>
+                <a href="#questions" class="text-white text-xl" onclick="toggleMobileMenu()">Questions?</a>
+                <a href="/enroll" class="bg-brand-primary text-white px-6 py-3 rounded-lg text-center text-xl">Enroll Now</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Mobile Menu Toggle Button -->
+    <button onclick="toggleMobileMenu()" class="md:hidden fixed bottom-4 right-4 bg-brand-primary text-white p-4 rounded-full shadow-lg z-50">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Thank You Modal -->
+    <div id="thank-you-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <i class="fas fa-check-circle text-brand-primary text-5xl mb-4"></i>
+            <p id="modal-message" class="text-xl"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
